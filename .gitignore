@@ -29,4 +29,37 @@ go.work.sum
 
 # Editor/IDE
 # .idea/
-# .vscode/
+.vscode/
+
+# Local Terraform directories
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output
+*.tfplan
+
+# Ignore generated provider binaries
+.terraform/plugins/
+
+# Editor/OS files
+*.swp
+*~
+.DS_Store
+
+bin/
